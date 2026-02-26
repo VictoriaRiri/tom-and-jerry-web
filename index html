@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom & Jerry | The Chase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="hero">
+        <h1 id="main-title">Tom & Jerry</h1>
+        <p class="subheading">The Chase Never Ends</p>
+
+        <div class="character-container">
+            <div class="character tom" id="tom">
+                <span>TOM</span>
+            </div>
+            <div class="character jerry" id="jerry">
+                <span>JERRY</span>
+            </div>
+        </div>
+
+        <button id="chase-btn">Start the Chase</button>
+        <p id="status-text"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
